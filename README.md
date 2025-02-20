@@ -2,11 +2,11 @@
 
 > This project is part of my CS202 Challenge. More details about it on [my website](https://cadevue.com)! (updated soon)
 
-# Try Now!
+## Try Now!
 This application can be tried out immediately! The web application can be accessed in this link: <br>
 https://closest-pair-frontend.pages.dev/
 
-# About This Project 
+## About This Project 
 This project is made as part of my Computer Science Study at Bandung Institute of Technology. The specific course related to this project is IF2211 Algorithm Strategy.
 
 This project was originally assigned at the 4th semester, but I decided to redo the entire project (February 2025) from learning purposes. 
@@ -24,7 +24,7 @@ I also want to credit the people who contributed in the original project:
 - [Fakih Anugerah Pratama](https://github.com/fakihap/)
 
 
-# Project Description 
+## Project Description 
 A web application that solve the closest pair problem using 2 kind of algorithm — Brute Force and Divide and Conquer. The frontend is built using Typescript and Three.js, while the backend is built using Golang. The program is deployed using Cloudflare Pages (frontend) and Docker-AWS EC2 (backend). The communication between the frontend and backend is done using websocket.
 
 Here is the specification of the request and response for the websocket communication:
@@ -44,7 +44,7 @@ type SolveCPResponse struct {
 }
 ```
 
-# Frontend
+## Frontend
 https://github.com/cadevue/closest-pair-frontend/tree/master
 
 The technologies used for the frontend are:
@@ -55,7 +55,7 @@ The technologies used for the frontend are:
 - **Websocket** for the communication with the backend
 - **Cloudflare Pages** for the deployment
 
-# Backend
+## Backend
 https://github.com/cadevue/closest-pair-backend/tree/master
 
 The technologies used for the backend are:
@@ -65,11 +65,11 @@ The technologies used for the backend are:
 - **Websocket** for the communication with the frontend
 - **Github Actions** for the CI/CD pipeline
 
-# Deployment
+## Deployment
 The web application can be accessed in this link: <br>
 https://closest-pair-frontend.pages.dev/
 
-# Screenshots 
+## Screenshots 
 Here are some screenshots of the closest pair solver web application.
 
 ### Application Idle
