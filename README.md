@@ -6,26 +6,10 @@
 This application can be tried out immediately! The web application can be accessed in this link: <br>
 https://closest-pair-frontend.pages.dev/
 
-## About This Project 
-This project is made as part of my Computer Science Study at Bandung Institute of Technology. The specific course related to this project is IF2211 Algorithm Strategy.
-
-This project was originally assigned at the 4th semester, but I decided to redo the entire project (February 2025) from learning purposes. 
-
-The goal of my learning is to create a full web application, with the backend and frontend separated. The frontend and backend utilizes websocket for communication, as the closest pair problem can't be solved quickly, especially with the specification of the project (~ <b>10,000 to 100,000</b> points).
-
-My goal for this project is also to learn about deployment, especially from the backend side. I write the backend using Golang, and deploy it using Docker inside an AWS EC2. I also implement a CI/CD pipeline using Github Actions that automatically build and deploy the backend, using the EC2 instance as the github-actions runner.
-
-The original project can be found in this repository, which is just the algorithm implementation in Golang, without the frontend or server implementation: <br>
-https://github.com/cadevue/ClosestPairSolver
-
-*\* Notice that this differs from the repo for the current bot. Repo of the current bot can be found on top of this article*
-
-I also want to credit the people who contributed in the original project:
-- [Fakih Anugerah Pratama](https://github.com/fakihap/)
-
-
 ## Project Description 
-A web application that solve the closest pair problem using 2 kind of algorithm — Brute Force and Divide and Conquer. The frontend is built using Typescript and Three.js, while the backend is built using Golang. The program is deployed using Cloudflare Pages (frontend) and Docker-AWS EC2 (backend). The communication between the frontend and backend is done using websocket.
+A web application that solve the closest pair problem using 2 kind of algorithm — Brute Force and Divide and Conquer. The number of points handled by the application is ~ <b>10,000 to 100,000</b> points. 
+
+The frontend is built using Typescript and Three.js, while the backend is built using Golang. The program is deployed using Cloudflare Pages (frontend) and Docker-AWS EC2 (backend). The communication between the frontend and backend is done using websocket.
 
 Here is the specification of the request and response for the websocket communication:
 ```go
